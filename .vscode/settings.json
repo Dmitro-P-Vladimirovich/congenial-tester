@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./homework/utils",
+        "./homework/utils",
+        "./homework/dmitriy_ponomarev/utils"
+    ]
+}
