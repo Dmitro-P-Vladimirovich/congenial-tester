@@ -32,7 +32,7 @@ def create_post():
 
 
 def new_post():   # Функция-предусловие для следующих тестов (get, put, patch, delete)
-    body = {       # Функция не выполнится, т.к. в этой API не создаются новые посты
+    body = {       # (функция не выполнится, т.к. в этой API не создаются новые посты)
         "title": "sasssss",
         "body": "kokkkkk",
         "userId": "dfgdfgdfg"
