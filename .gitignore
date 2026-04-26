@@ -419,3 +419,5 @@ FodyWeavers.xsd
 
 creds.py
 .env
+/homework/dmitriy_ponomarev/Lesson_20/allure-results/
+/homework/dmitriy_ponomarev/Lesson_20/allure-report/
