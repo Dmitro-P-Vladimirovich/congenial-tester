@@ -47,7 +47,7 @@ def test_focused(page: Page):
     expect(field).to_be_focused()
 
 
-def test_rabs(page: Page, context: BrowserContext):
+def test_tabs(page: Page, context: BrowserContext):
     page.goto('https://skifmusic.ru/catalog/bas-gitaryi-14')
     link = page.get_by_role('link', name='Франшиза').first
     with context.expect_page() as new_page_event:
@@ -83,7 +83,7 @@ def test_alert(page: Page):
     def cancel_alert(alert: Dialog):
         print(alert.message)
         print(alert.type)
-        alert.accept('Saaas')
+        alert.dismiss()
     def fill_and_accept(alert: Dialog):
         alert.accept()
     page.on('dialog', cancel_alert)
